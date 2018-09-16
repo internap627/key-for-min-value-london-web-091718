@@ -11,6 +11,10 @@ def key_for_min_value(name_hash)
  newArray.sort
  min = newArray[0]
  
- name_hash.select{|key, hash| hash == min }
+ name_hash.select{|key, hash| if hash == min
+ return key
+ end
+  }
+  
   
 end
