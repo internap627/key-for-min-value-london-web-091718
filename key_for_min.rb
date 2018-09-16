@@ -11,6 +11,6 @@ def key_for_min_value(name_hash)
  newArray.sort
  min = newArray[0]
  
- 
+ name_hash.select{|key, hash| hash["client_id"] == "2180" }
   
 end
