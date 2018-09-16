@@ -9,6 +9,8 @@ def key_for_min_value(name_hash)
   end
   
  newArray.sort
- newArray[0]
+ min = newArray[0]
+ 
+ 
   
 end
